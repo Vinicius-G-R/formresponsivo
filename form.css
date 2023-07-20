@@ -1,0 +1,45 @@
+:root {
+    --cor1: #001D4A;
+    --cor2: #006992;
+    --cor3: #ECA400;
+    --cor4: #EAF8BF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+section#login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--cor4);
+    border-radius: 20px;
+    height: 568px;
+    width: 320px;
+    overflow: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.644);
+}
+
+div#foto {
+    background: var(--cor2);
+    background: url(imgs/img.jpg) no-repeat center center;
+    width: 320px;
+    height: 200px;
+    background-size: cover;
+}
+
+div#formulario {
+    padding: 10px;
+}
